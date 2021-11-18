@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>helmsman</id>
+    <version>3.7.7-beta1</version>
+    <packageSourceUrl>https://github.com/veleek/chocolatey-helmsman</packageSourceUrl>
+    <owners>veleek</owners>
+
+    <title>helmsman (Install)</title>
+    <authors>praqma</authors>
+    <projectUrl>https://github.com/Praqma/Helmsman</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/veleek/chocolatey-helmsman/master/icons/helmsman.png</iconUrl>-->
+    <licenseUrl>https://github.com/Praqma/helmsman/blob/master/LICENSE</licenseUrl>
+    <projectSourceUrl>https://github.com/Praqma/Helmsman</projectSourceUrl>
+    <docsUrl>https://github.com/Praqma/helmsman/blob/master/docs/cmd_reference.md</docsUrl>
+    <bugTrackerUrl>https://github.com/Praqma/helmsman/issues</bugTrackerUrl>
+    <tags>helmsman helm</tags>
+    <summary>Helm Charts as Code</summary>
+    <description>Helmsman is a Helm Charts (k8s applications) as Code tool which allows you to automate the deployment/management of your Helm charts from version controlled code.</description>
+    <releaseNotes>## Fixes and improvements
+
+    * feat: Add namespaceLabelsAuthoritative settings option to allow removing undefined ns labels (#631)
+    </releaseNotes>
+    <dependencies>
+      <!-- <dependency id="helm" version="3.0.0" /> -->
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
