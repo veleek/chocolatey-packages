@@ -9,10 +9,10 @@
 
     <title>helmsman (Install)</title>
     <authors>praqma</authors>
-    <projectUrl>https://github.com/Praqma/Helmsman</projectUrl>
+    <projectUrl>https://github.com/Praqma/helmsman</projectUrl>
     <!--<iconUrl>http://cdn.rawgit.com/veleek/chocolatey-helmsman/master/icons/helmsman.png</iconUrl>-->
     <licenseUrl>https://github.com/Praqma/helmsman/blob/master/LICENSE</licenseUrl>
-    <projectSourceUrl>https://github.com/Praqma/Helmsman</projectSourceUrl>
+    <projectSourceUrl>https://github.com/Praqma/helmsman</projectSourceUrl>
     <docsUrl>https://github.com/Praqma/helmsman/blob/master/docs/cmd_reference.md</docsUrl>
     <bugTrackerUrl>https://github.com/Praqma/helmsman/issues</bugTrackerUrl>
     <tags>helmsman helm</tags>
@@ -23,7 +23,7 @@
     * feat: Add namespaceLabelsAuthoritative settings option to allow removing undefined ns labels (#631)
     </releaseNotes>
     <dependencies>
-      <!-- <dependency id="helm" version="3.0.0" /> -->
+      <dependency id="kubernetes-helm" version="3.0.0" />
     </dependencies>
   </metadata>
   <files>
